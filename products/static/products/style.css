@@ -123,6 +123,85 @@ p {
 
 
 
+/* Sign in Section */
+
+.signin-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.signin-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 32px;
+  color: #061a4c;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.remember input {
+  margin-right: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #061a4c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #092D85;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #061a4c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+
 
 
 
@@ -149,11 +228,15 @@ p {
   padding: 20px;
   border-radius: 10px;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
 }
 
+.about-text-box p {
+  font-size: 20px !important;
+  line-height: 1.5;
+}
 .news-images {
   display: flex;
   justify-content: center;
