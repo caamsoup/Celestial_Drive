@@ -5,6 +5,9 @@ from .forms import ContactForm
 
 
 # Create your views here.
+def index(request):
+    return render(request, "products/index.html")
+
 def about(request):
     return render(request, "products/about.html")
 
@@ -22,4 +25,4 @@ def contact_view(request):
             return render(request, 'contact/thank_you.html')
     else:
         form = ContactForm()
-    return render(request, 'contact/contact.html', {'form': form})
+    return render(request, 'products/contact.html', {'form': form})

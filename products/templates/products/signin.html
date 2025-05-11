@@ -16,9 +16,9 @@
   <nav class="navbar">
     <div class="logo">Celestial Drive</div>
 
-    <div class="nav-item"><a href="index.html">Home</a></div>
-    <div class="nav-item"><a href="signin.html">Sign In</a></div>
-    <div class="nav-item"><a href="about.html">About / News</a></div>
+    <div class="nav-item"><a href="{% url 'index' %}">Home</a></div>
+    <div class="nav-item"><a href="{% url 'log' %}">Sign In</a></div>
+    <div class="nav-item"><a href="{% url 'about' %}">About / News</a></div>
 
     <div class="nav-item dropdown">
       <button class="dropbtn">Vehicles ▾</button>
@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <div class="nav-item"><a href="contact.html">Contact / Feedback</a></div>
+    <div class="nav-item"><a href="{% url 'contact' %}">Contact / Feedback</a></div>
   </nav>
 
 
